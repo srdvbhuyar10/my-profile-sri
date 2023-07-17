@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <style>
+        .dolor1{
+            color: red;
+            text-decoration: none;
+        }
+        .dolor4{
+            color: brown;
+            text-decoration: none;
+        }
+      h2{
+          font-family: 'Roboto', sans-serif;
+      }
+        fieldset{
+            color: red;
+            background-color: bisque;
+        }
+      label{
+          font-family: 'Poppins', sans-serif;
+          color: blue;
+          width: 200px;
+          border-radius: 10px;
+          padding: 7px;
+          font-weight: lighter;
+          font-size: large;
+          text-transform: uppercase;
+          font-style: oblique;
+          font-family: 'Poppins'; 
+      }
+      #detailButton{
+          font-family: 'Poppins', sans-serif; 
+          border-radius: 10px;
+      }
+      td{
+        color: purple;
+        font-style: normal;
+        text-align: left;
+        font-size: medium;
+      }
+  </style>
+  </head>
+  <body style="background-color: rgb(100, 131, 131);">
+    <fieldset class="dolor1">
+        <legend> <h2> Student Registration Form </h2> </legend>
+    <table>
+      <tbody>
+        
+        <form>
+          <tr>
+            <td>
+              <label for="fName"> First Name </label>
+            </td>
+            <td>
+              <input id="fName" type="text" autofocus required placeholder="Only Capitals"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Last Name </label>
+            </td>
+            <td>
+              <input type="text" placeholder="Only caps"/>
+            </td>
+          </tr>
+          <tr>
+            <td><label> Age </label></td>
+            <td><input type="number" required placeholder="Only age >= 18 allowed"  /></td>
+          </tr>
+          <tr>
+            <td><label> Name of your country </label></td>
+            <td><input type="text" value="India" readonly/></td>
+          </tr>
+          <tr>
+            <td> <label> Email </label>  </td>
+            <td> <input type="email"> </td>
+          </tr>
+          <tr>
+            <td> <label> Password </label> </td>
+            <td> <input type="password"> </td>
+          </tr>
+          <tr>
+            <td> <label> Mobile </label> </td>
+            <td> <input type="tel"> </td>
+          </tr>
+          <tr>
+            <td> <label> Date Of Birth </label> </td>
+            <td> <input type="date"> </td>
+          </tr>
+          <tr>
+            <td><label>Suitable Time</label>  </td>
+            <td> <input type="time"> </td>
+          </tr>
+          <tr>
+            <td> <label> Select Gender </label>  </td>
+               <td> <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+              </td>
+          </tr>
+          <tr>
+            <td> <label>Technology Stack</label> </td>
+            <td> 
+                <input type="checkbox">  C
+                <input type="checkbox"> CPP
+                <input type="checkbox"> Java
+                <input type="checkbox"> Angular
+                <input type="checkbox"> React
+                <input type="checkbox"> DevOps
+            </td>
+          </tr>
+          <tr>
+            <td> <label> Upload photo </label>  </td>
+            <td> <input type="file"> </td>
+          </tr>
+          <tr>
+            <td> <label> Upload Documents</label> </td>
+            <td> <input type="file" multiple> </td>
+          </tr>
+          <tr>
+            <td> 
+                <label> Select your State </label>
+            </td>
+            <td>
+              <label>
+                <select>
+                    <option value="Maharashtra"> Maharashtra</option>
+                    <option value="Karnatka">Karnatka</option>
+                    <option value="AP">Andra Pradesh</option>
+                    <option value="UP">UP</option>
+                    <option value="Bihar">Bihar</option>
+                </select>
+              </label> 
+            </td>
+          </tr>
+          <tr>
+            <td> <label> Address </label> </td>
+            <td>
+               <label><textarea cols="50" rows="8"></textarea></label> 
+            </td>
+          </tr>
+          <tr>
+           <dolor4> <td><button type="submit"> Register</button></td>
+            <td> <button type="reset">Reset</button> </td> </dolor4>
+          </tr>
+        </form>
+    
+      </tbody>
+    </table>
+</fieldset>
+</body>
+</html>
